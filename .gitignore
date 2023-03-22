@@ -1,0 +1,28 @@
+node_modules
+bookshop/server/node_modules
+bookshop/server/.env
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+bookshop/client/node_modules
+bookshop/client/.pnp
+bookshop/client.pnp.js
+
+# testing
+bookshop/client/coverage
+
+# production
+bookshop/client/build
+
+# misc
+bookshop/client/.DS_Store
+bookshop/client/.env.local
+bookshop/client/.env.development.local
+bookshop/client/.env.test.local
+bookshop/client/.env.production.local
+
+bookshop/client/npm-debug.log*
+bookshop/client/yarn-debug.log*
+bookshop/client/yarn-error.log*
